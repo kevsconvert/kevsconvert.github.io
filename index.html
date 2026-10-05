@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kevwe Enaibe — Research, Strategy & Business Development across Africa and emerging markets.">
+<meta name="theme-color" content="#101827">
+<title>Kevwe Enaibe — Research, Strategy & Business Development</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--ink:#101827;--text:#273449;--muted:#697586;--paper:#f6f4ef;--white:#fff;--line:#dedbd3;--teal:#087f73;--blue:#3157d5;--gold:#c8872d;--lav:#7b61b1}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",Arial,sans-serif;line-height:1.65}a{text-decoration:none;color:inherit}.wrap{width:min(1160px,90%);margin:auto}
+nav{position:sticky;top:0;z-index:50;background:rgba(246,244,239,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(222,219,211,.8)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:-.04em}.brand span{color:var(--teal)}.navlinks{display:flex;gap:28px;color:#536071;font-size:13px;font-weight:600}.navlinks a:hover{color:var(--teal)}
+.hero{padding:112px 0 105px;background:radial-gradient(circle at 84% 22%,rgba(49,87,213,.12),transparent 28%),radial-gradient(circle at 10% 80%,rgba(8,127,115,.10),transparent 28%);border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1.5fr .7fr;gap:70px;align-items:end}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:800;color:var(--teal)}h1{font-family:"Playfair Display",Georgia,serif;font-size:clamp(54px,7.3vw,96px);line-height:.98;letter-spacing:-.055em;margin:18px 0 30px;max-width:850px;font-weight:600}.hero-copy{font-size:19px;color:#526073;max-width:730px}.hero-note{border-left:3px solid var(--gold);padding:4px 0 4px 22px;color:#596577;font-size:14px}.hero-note strong{display:block;color:var(--ink);font-size:17px;margin-bottom:7px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:12px 18px;border-radius:5px;font-size:13px;font-weight:700;border:1px solid #cfcac0}.btn.dark{background:var(--ink);color:white;border-color:var(--ink)}.btn.light{background:rgba(255,255,255,.45)}
+section{padding:96px 0}.section-intro{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px;margin-bottom:48px}.label{font-size:12px;text-transform:uppercase;letter-spacing:.15em;font-weight:800;color:var(--teal)}h2{font-family:"Playfair Display",Georgia,serif;font-size:clamp(36px,4vw,56px);line-height:1.05;letter-spacing:-.04em;margin:9px 0}.intro-text{color:#596577;max-width:680px}
+.about{background:var(--white);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px}.about p{color:#536073}.pullquote{font-family:"Playfair Display",Georgia,serif;font-size:28px;line-height:1.35;color:var(--ink);padding:20px 0 20px 28px;border-left:3px solid var(--gold)}
+.work-list{display:grid;gap:16px}.work{display:grid;grid-template-columns:70px 1fr auto;gap:28px;align-items:start;padding:30px 0;border-top:1px solid var(--line)}.work:first-child{border-top:0}.num{font-size:13px;color:var(--teal);font-weight:800}.work h3{font-size:23px;margin:0 0 7px;letter-spacing:-.02em}.work .meta{font-size:13px;color:var(--muted);margin-bottom:14px}.work p{color:#5a6677;margin:0;max-width:720px}.work-tag{font-size:11px;text-transform:uppercase;letter-spacing:.11em;color:var(--muted);padding-top:5px;text-align:right}
+.capabilities{background:var(--ink);color:white}.capabilities .label{color:#73d5c7}.capabilities .intro-text{color:#aeb9c9}.caps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#354052;border:1px solid #354052}.cap{padding:28px;background:var(--ink);min-height:150px}.cap:nth-child(3n+1){border-top:3px solid var(--teal)}.cap:nth-child(3n+2){border-top:3px solid var(--blue)}.cap:nth-child(3n){border-top:3px solid var(--gold)}.cap h3{font-size:16px;margin:0 0 8px}.cap p{font-size:13px;color:#aeb9c9;margin:0}
+.focus{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.focus-card{background:white;border:1px solid var(--line);padding:30px;min-height:205px;position:relative}.focus-card .index{font-size:11px;color:var(--gold);font-weight:800;letter-spacing:.12em}.focus-card h3{font-family:"Playfair Display",Georgia,serif;font-size:25px;margin:25px 0 10px}.focus-card p{font-size:14px;color:#647083}
+.education{background:#eeece5}.edu{display:flex;justify-content:space-between;gap:30px;align-items:flex-end;border-top:1px solid #d6d1c7;padding-top:28px}.edu h3{margin:0;font-size:20px}.edu p{margin:7px 0 0;color:#657082}.edu-year{font-size:13px;color:var(--muted)}
+.contact{background:linear-gradient(120deg,#101827 0%,#123f50 60%,#176f68 100%);color:white}.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:70px;align-items:end}.contact h2{font-size:clamp(45px,6vw,72px)}.contact p{color:#c1ccd9;max-width:600px}.contact-info{border-left:1px solid rgba(255,255,255,.25);padding-left:28px;font-size:14px}.contact-info div{margin:0 0 18px}.contact-info span{display:block;text-transform:uppercase;letter-spacing:.12em;font-size:10px;color:#89cfc6;margin-bottom:4px}.contact-info a{text-decoration:underline;text-underline-offset:3px}
+footer{padding:28px 0;font-size:12px;color:#737d8b;display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.navlinks{display:none}.hero{padding:75px 0}.hero-grid,.about-grid,.section-intro,.contact-grid{grid-template-columns:1fr;gap:35px}.hero-grid{align-items:start}.caps,.focus{grid-template-columns:1fr}.work{grid-template-columns:45px 1fr}.work-tag{display:none}.edu,footer{display:block}.edu-year{margin-top:12px}section{padding:68px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#">KEVWE <span>ENAIBE</span></a><div class="navlinks"><a href="#about">About</a><a href="#work">Selected Work</a><a href="#capabilities">Capabilities</a><a href="#focus">Focus</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow">Research · Strategy · Business Development</div><h1>Research that makes complex ideas easier to understand — and act on.</h1><p class="hero-copy">I am a research-oriented writer, strategist and emerging business professional working at the intersection of African markets, business, development, finance and technology.</p><div class="buttons"><a class="btn dark" href="#work">View selected work</a><a class="btn light" href="mailto:kevswrites@gmail.com">Start a conversation</a></div></div>
+<div class="hero-note"><strong>Africa & Emerging Markets</strong>Based in Nigeria, with an interest in evidence, policy and strategic decision-making that can support more sustainable economic development across Africa.</div>
+</div></header>
+
+<section id="about" class="about"><div class="wrap"><div class="section-intro"><div><div class="label">01 / About</div><h2>The thinking behind the work.</h2></div><div class="intro-text">My work combines scientific training with practical experience in writing, market research, business development and technology-driven entrepreneurship.</div></div>
+<div class="about-grid"><div><p>I research business and market problems, translate complex information into clear insights, and develop practical strategies for businesses and founder-led organisations.</p><p>My interests sit across African development, business, trade, finance, technology and institutional growth. I am particularly interested in how evidence, policy and strategic decisions shape economic opportunities.</p></div><div class="pullquote">“An analytical mindset developed through scientific training, applied to real business and development questions.”</div></div></div></section>
+
+<section id="work"><div class="wrap"><div class="section-intro"><div><div class="label">02 / Selected Work</div><h2>Experience with a purpose.</h2></div><div class="intro-text">A selection of professional and project experience from my CV, presented around the problems solved and capabilities developed.</div></div>
+<div class="work-list">
+<article class="work"><div class="num">01</div><div><h3>Independent Writer & Strategist</h3><div class="meta">kevswrites · Nigeria · 2021 — Present</div><p>Research and write on business, leadership, finance, African development, markets and institutional growth. Conduct market and business research on challenges facing MSMEs, entrepreneurs and founder-led businesses across retail, food, fashion and finance.</p></div><div class="work-tag">Research / Writing</div></article>
+<article class="work"><div class="num">02</div><div><h3>Technology & Financial Intelligence Project</h3><div class="meta">Founder & Product Lead · Ongoing</div><p>Conceptualised and am building an AI-powered financial management platform for Nigerian MSMEs. Defined the product concept and a four-method transaction capture system, built a working React prototype, and worked across product strategy, business analysis, user needs, analytical logic and positioning.</p></div><div class="work-tag">Product / Strategy</div></article>
+<article class="work"><div class="num">03</div><div><h3>Business Development & Market Research</h3><div class="meta">Independent & founder-led projects</div><p>Completed a paid market research sprint for Income Boomers, profiling 30 founder-led businesses across 14 data fields within a 72-hour deadline. Also researched Nigerian business environments, customer needs, market opportunities and competitive landscapes.</p></div><div class="work-tag">Markets / Growth</div></article>
+</div></div></section>
+
+<section id="capabilities" class="capabilities"><div class="wrap"><div class="section-intro"><div><div class="label">03 / Capabilities</div><h2>What I can contribute.</h2></div><div class="intro-text">A cross-disciplinary toolkit built around research, communication, commercial thinking and problem solving.</div></div>
+<div class="caps">
+<div class="cap"><h3>Research & Evidence</h3><p>Research, literature and desk research, evidence-based analysis, data interpretation.</p></div>
+<div class="cap"><h3>Market Intelligence</h3><p>Market and industry research, customer needs, competitive landscapes and opportunity analysis.</p></div>
+<div class="cap"><h3>Strategy</h3><p>Business analysis, strategic recommendations, growth strategy and positioning.</p></div>
+<div class="cap"><h3>Communication</h3><p>Strategic writing, reports, presentations, content development and thought leadership.</p></div>
+<div class="cap"><h3>Business Development</h3><p>Commercial thinking applied to founder-led projects, markets and business opportunities.</p></div>
+<div class="cap"><h3>Technology</h3><p>Technology and digital transformation with practical product and user-needs thinking.</p></div>
+</div></div></section>
+
+<section id="focus"><div class="wrap"><div class="section-intro"><div><div class="label">04 / Areas of Focus</div><h2>Questions worth exploring.</h2></div><div class="intro-text">These themes reflect the interests and directions stated in the professional profile.</div></div>
+<div class="focus">
+<div class="focus-card"><div class="index">01 — AFRICA</div><h3>Development & Institutions</h3><p>African economic and social issues, institutional growth, leadership and long-term development.</p></div>
+<div class="focus-card"><div class="index">02 — GLOBAL RELATIONS</div><h3>Trade & Investment</h3><p>Africa-China relations, trade, investment, development finance and global economic relationships.</p></div>
+<div class="focus-card"><div class="index">03 — BUSINESS</div><h3>MSMEs & Technology</h3><p>African markets, MSME development, finance, technology and the changing role of African businesses.</p></div>
+</div></div></section>
+
+<section class="education"><div class="wrap"><div class="section-intro"><div><div class="label">05 / Education</div><h2>Scientific foundations.</h2></div><div class="intro-text">A scientific background informs the analytical approach I bring to research and business problems.</div></div><div class="edu"><div><h3>B.Sc. Chemistry Technology</h3><p>Delta State University, Nigeria</p></div><div class="edu-year">2025</div></div></div></section>
+
+<section id="contact" class="contact"><div class="wrap contact-grid"><div><div class="label">06 / Contact</div><h2>Let’s work on something meaningful.</h2><p>For research, strategy, business development, writing or market-focused projects, you can reach me directly.</p><div class="buttons"><a class="btn" style="background:white;border-color:white" href="mailto:kevswrites@gmail.com">Email me</a><a class="btn" style="color:white;border-color:rgba(255,255,255,.35)" href="https://linkedin.com/in/kevwe-enaibe" target="_blank" rel="noopener">LinkedIn</a></div></div><div class="contact-info"><div><span>Email</span><a href="mailto:kevswrites@gmail.com">kevswrites@gmail.com</a></div><div><span>Phone</span>+234 807 199 7410</div><div><span>Location</span>Nigeria</div></div></div></section>
+
+<footer class="wrap"><span>© 2026 Kevwe Enaibe</span><span>Research · Strategy · Business Development</span></footer>
+</body>
+</html>
